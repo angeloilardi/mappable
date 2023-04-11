@@ -1,7 +1,7 @@
 
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "../App.css";
-import "leaflet/dist/leaflet.css";
+// import "leaflet/dist/leaflet.css";
 
 export default function Map() {
   return (
