@@ -2,6 +2,8 @@
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "../App.css";
 // import "leaflet/dist/leaflet.css";
+// import "./../../public/images/marker-icon-2x.png"
+
 
 export default function Map() {
   return (
