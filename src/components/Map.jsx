@@ -12,15 +12,16 @@ import "leaflet/dist/leaflet.css";
 //   iconUrl: require("leaflet/dist/images/marker-icon.png"),
 //   shadowUrl: require("leaflet/dist/images/marker-shadow.png"),
 // });
-import icon from "leaflet/dist/images/marker-icon.png";
-import iconShadow from "leaflet/dist/images/marker-shadow.png";
+// import icon from "leaflet/dist/images/marker-icon.png";
+// import iconShadow from "leaflet/dist/images/marker-shadow.png";
 
-let DefaultIcon = L.icon({
-  iconUrl: icon,
-  shadowUrl: iconShadow,
-});
+// let DefaultIcon = L.icon({
+//   iconUrl: icon,
+//   shadowUrl: iconShadow,
+// });
 
-L.Marker.prototype.options.icon = DefaultIcon;
+// L.Marker.prototype.options.icon = DefaultIcon;
+L.Icon.Default.imagePath = "images/";
 
 export default function Map() {
   return (
